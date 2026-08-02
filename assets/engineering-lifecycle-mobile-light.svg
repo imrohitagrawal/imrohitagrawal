@@ -1,24 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1280" viewBox="0 0 600 1280" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering lifecycle for mobile</title>
-  <desc id="desc">Eight vertically ordered stages move from customer discovery through architecture, delivery, evaluation, release, operation, and production learning, with feedback returning to discovery.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1168" viewBox="0 0 600 1168" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering lifecycle operating model for mobile</title>
+  <desc id="desc">Four stacked engineering gates pair eight stages from discovery to learning. Trust and runtime controls span the model, and learning returns to discovery.</desc>
   <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#486A8B"/>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10Z" fill="#426B8A"/>
     </marker>
   </defs>
-  <rect width="600" height="1280" fill="#F7F5F0"/>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
-    <g transform="translate(40 28)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">01</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Discover</text><text x="24" y="82" fill="#52606D" font-size="26">Customer problem · users · outcomes</text></g>
-    <g transform="translate(40 182)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">02</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Frame</text><text x="24" y="82" fill="#52606D" font-size="26">Requirements · constraints · risks · data</text></g>
-    <g transform="translate(40 336)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">03</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Architect</text><text x="24" y="82" fill="#52606D" font-size="26">Services · APIs · data · trust boundaries</text></g>
-    <g transform="translate(40 490)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">04</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Build</text><text x="24" y="82" fill="#52606D" font-size="26">AI workflows · integrations · platform</text></g>
-    <g transform="translate(40 644)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">05</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Evaluate</text><text x="24" y="82" fill="#52606D" font-size="26">Tests · LLM evals · security · performance</text></g>
-    <g transform="translate(40 798)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">06</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Release</text><text x="24" y="82" fill="#52606D" font-size="26">CI/CD · gates · canaries · rollback</text></g>
-    <g transform="translate(40 952)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">07</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Operate</text><text x="24" y="82" fill="#52606D" font-size="26">Observability · SLOs · incidents</text><text x="24" y="112" fill="#52606D" font-size="26">Reliability · cost</text></g>
-    <g transform="translate(40 1106)"><rect width="520" height="126" fill="#FEFDFB" stroke="#486A8B" stroke-width="4"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">08</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Learn</text><text x="24" y="82" fill="#52606D" font-size="26">Production feedback · adoption</text><text x="24" y="112" fill="#52606D" font-size="26">Continuous improvement</text></g>
-  </g>
-  <g fill="none" stroke="#486A8B" stroke-width="5" marker-end="url(#arrow)">
-    <path d="M 300 154 V 170"/><path d="M 300 308 V 324"/><path d="M 300 462 V 478"/><path d="M 300 616 V 632"/><path d="M 300 770 V 786"/><path d="M 300 924 V 940"/><path d="M 300 1078 V 1094"/>
-    <path d="M 40 1169 H 16 V 91 H 28"/>
+  <rect width="600" height="1168" fill="#F6F4EF"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#17202A">
+    <text x="32" y="40" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="1.2" fill="#536171">ENGINEERING OPERATING MODEL</text>
+    <path d="M32 58H568" stroke="#C7CDD4"/>
+    <path d="M32 92V870" stroke="#426B8A" stroke-width="2" marker-end="url(#arrow)"/>
+    <g fill="#F6F4EF" stroke="#426B8A" stroke-width="2">
+      <circle cx="32" cy="98" r="6"/><circle cx="32" cy="286" r="6"/><circle cx="32" cy="474" r="6"/><circle cx="32" cy="690" r="6"/>
+    </g>
+    <g stroke="#C7CDD4"><path d="M58 274H568"/><path d="M58 462H568"/><path d="M58 678H568"/><path d="M58 890H568"/></g>
+
+    <g font-size="26" font-weight="650">
+      <text x="58" y="104">UNDERSTAND</text><text x="58" y="292">DESIGN &amp; DELIVER</text><text x="58" y="480">ASSURE &amp; SHIP</text><text x="58" y="696">RUN &amp; IMPROVE</text>
+    </g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="#426B8A">
+      <text x="58" y="138">→ DECISION BRIEF</text><text x="58" y="326">→ SYSTEM BOUNDARY</text><text x="58" y="514">→ RELEASE EVIDENCE</text><text x="58" y="730">→ LEARNING BACKLOG</text>
+    </g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="#426B8A">
+      <text x="58" y="178">01</text><text x="318" y="178">02</text><text x="58" y="366">03</text><text x="318" y="366">04</text>
+      <text x="58" y="554">05</text><text x="318" y="554">06</text><text x="58" y="770">07</text><text x="318" y="770">08</text>
+    </g>
+    <g font-size="28" font-weight="650">
+      <text x="104" y="178">Discover</text><text x="364" y="178">Frame</text><text x="104" y="366">Architect</text><text x="364" y="366">Build</text>
+      <text x="104" y="554">Evaluate</text><text x="364" y="554">Release</text><text x="104" y="770">Operate</text><text x="364" y="770">Learn</text>
+    </g>
+    <g font-size="26" fill="#536171">
+      <text x="58" y="212"><tspan x="58">Customer problem</tspan><tspan x="58" dy="28">Users · outcomes</tspan></text>
+      <text x="318" y="212"><tspan x="318">Requirements · data</tspan><tspan x="318" dy="28">Constraints · risks</tspan></text>
+      <text x="58" y="400"><tspan x="58">Services · APIs · data</tspan><tspan x="58" dy="28">Trust boundaries</tspan></text>
+      <text x="318" y="400"><tspan x="318">AI workflows</tspan><tspan x="318" dy="28">Integrations · platform</tspan></text>
+      <text x="58" y="588"><tspan x="58">Tests · LLM evals</tspan><tspan x="58" dy="28">Security</tspan><tspan x="58" dy="28">Performance</tspan></text>
+      <text x="318" y="588"><tspan x="318">CI/CD · gates</tspan><tspan x="318" dy="28">Canaries · rollback</tspan></text>
+      <text x="58" y="804"><tspan x="58">Observability · SLOs</tspan><tspan x="58" dy="28">Incidents · cost</tspan></text>
+      <text x="318" y="804"><tspan x="318">Production feedback</tspan><tspan x="318" dy="28">Adoption</tspan><tspan x="318" dy="28">Improvement</tspan></text>
+    </g>
+
+    <g stroke="#C7CDD4"><path d="M58 900H568"/><path d="M58 996H568"/><path d="M58 1114H568"/></g>
+    <text x="58" y="930" font-size="26" font-weight="650">TRUST &amp; EVIDENCE</text>
+    <text x="58" y="962" font-size="26" fill="#536171">Provenance · evaluation · security</text>
+    <text x="58" y="990" font-size="26" fill="#536171">Trust boundaries · release gates</text>
+    <text x="58" y="1026" font-size="26" font-weight="650">RUNTIME DISCIPLINE</text>
+    <text x="58" y="1058" font-size="26" fill="#536171">Observability · SLOs · incidents</text>
+    <text x="58" y="1086" font-size="26" fill="#536171">Reliability · cost</text>
+
+    <path d="M568 690H582V1146H18V98H50" fill="none" stroke="#426B8A" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="88" y="1124" width="424" height="36" fill="#F6F4EF"/>
+    <text x="300" y="1151" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="0.5" fill="#426B8A">LEARN RETURNS TO DISCOVER</text>
   </g>
 </svg>

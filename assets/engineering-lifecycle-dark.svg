@@ -1,86 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering lifecycle</title>
-  <desc id="desc">Eight stages move from customer discovery through architecture, delivery, evaluation, release, operation, and production learning, with feedback returning to discovery.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering lifecycle operating model</title>
+  <desc id="desc">Four engineering gates group eight stages from customer discovery through delivery, assurance, operation, and learning. Trust and runtime controls span every gate, and production learning returns to discovery.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7FA3C7"/>
+      <path d="M0 0 10 5 0 10Z" fill="#7FA3C7"/>
     </marker>
   </defs>
-  <rect width="960" height="500" fill="#0D1117"/>
-  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
-    <g transform="translate(24 50)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">01</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Discover</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Customer problem</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Users</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Outcomes</text>
+  <rect width="960" height="460" fill="#0D1117"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#E6EDF3">
+    <text x="40" y="34" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="1.2" fill="#A7B1BC">ENGINEERING OPERATING MODEL</text>
+    <path d="M330 30H920" stroke="#303B47"/><path d="M40 54H920" stroke="#303B47"/>
+    <path d="M152 70H824" stroke="#7FA3C7" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <g fill="#0D1117" stroke="#7FA3C7" stroke-width="1.5">
+      <circle cx="152" cy="70" r="4"/><circle cx="376" cy="70" r="4"/><circle cx="600" cy="70" r="4"/><circle cx="824" cy="70" r="4"/>
     </g>
-    <g transform="translate(258 50)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">02</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Frame</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Requirements</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Constraints · risks</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Data</text>
+    <g stroke="#303B47"><path d="M264 92V294"/><path d="M488 92V294"/><path d="M712 92V294"/></g>
+    <g stroke="#7FA3C7" stroke-width="2"><path d="M40 92V112"/><path d="M264 92V112"/><path d="M488 92V112"/><path d="M712 92V112"/></g>
+    <g font-size="17" font-weight="650" letter-spacing="0.5"><text x="52" y="108">UNDERSTAND</text><text x="276" y="108">DESIGN &amp; DELIVER</text><text x="500" y="108">ASSURE &amp; SHIP</text><text x="724" y="108">RUN &amp; IMPROVE</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" fill="#7FA3C7"><text x="40" y="144">01</text><text x="40" y="218">02</text><text x="264" y="144">03</text><text x="264" y="218">04</text><text x="488" y="144">05</text><text x="488" y="218">06</text><text x="712" y="144">07</text><text x="712" y="218">08</text></g>
+    <g font-size="18" font-weight="650"><text x="70" y="144">Discover</text><text x="70" y="218">Frame</text><text x="294" y="144">Architect</text><text x="294" y="218">Build</text><text x="518" y="144">Evaluate</text><text x="518" y="218">Release</text><text x="742" y="144">Operate</text><text x="742" y="218">Learn</text></g>
+    <g font-size="17" fill="#A7B1BC">
+      <text x="40" y="170"><tspan x="40">Customer problem · users</tspan><tspan x="40" dy="21">Outcomes</tspan></text><text x="40" y="244"><tspan x="40">Requirements · constraints</tspan><tspan x="40" dy="21">Risks · data</tspan></text>
+      <text x="264" y="170"><tspan x="264">Services · APIs · data</tspan><tspan x="264" dy="21">Trust boundaries</tspan></text><text x="264" y="244"><tspan x="264">AI workflows · integrations</tspan><tspan x="264" dy="21">Platform</tspan></text>
+      <text x="488" y="170"><tspan x="488">Tests · LLM evaluations</tspan><tspan x="488" dy="21">Security · performance</tspan></text><text x="488" y="244"><tspan x="488">CI/CD · quality gates</tspan><tspan x="488" dy="21">Canaries · rollback</tspan></text>
+      <text x="712" y="170"><tspan x="712">Observability · SLOs</tspan><tspan x="712" dy="21">Incidents · reliability · cost</tspan></text><text x="712" y="244"><tspan x="712">Production feedback</tspan><tspan x="712" dy="21">Adoption · improvement</tspan></text>
     </g>
-    <g transform="translate(492 50)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">03</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Architect</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Services · APIs</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Data</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Trust boundaries</text>
-    </g>
-    <g transform="translate(726 50)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">04</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Build</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">AI workflows</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Integrations</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Platform</text>
-    </g>
-    <g transform="translate(726 290)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">05</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Evaluate</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Tests · LLM evals</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Security</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Performance</text>
-    </g>
-    <g transform="translate(492 290)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">06</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Release</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">CI/CD · gates</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Canaries</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Rollback</text>
-    </g>
-    <g transform="translate(258 290)">
-      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">07</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Operate</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Observability</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">SLOs · incidents</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Reliability · cost</text>
-    </g>
-    <g transform="translate(24 290)">
-      <rect width="210" height="160" fill="#161B22" stroke="#7FA3C7" stroke-width="3"/>
-      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">08</text>
-      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Learn</text>
-      <text x="18" y="82" fill="#AAB4BE" font-size="22">Production</text>
-      <text x="18" y="111" fill="#AAB4BE" font-size="22">Feedback · adoption</text>
-      <text x="18" y="140" fill="#AAB4BE" font-size="22">Improvement</text>
-    </g>
-  </g>
-  <g fill="none" stroke="#7FA3C7" stroke-width="4" marker-end="url(#arrow)">
-    <path d="M 234 130 H 246"/>
-    <path d="M 468 130 H 480"/>
-    <path d="M 702 130 H 714"/>
-    <path d="M 831 210 V 278"/>
-    <path d="M 726 370 H 714"/>
-    <path d="M 492 370 H 480"/>
-    <path d="M 258 370 H 246"/>
-    <path d="M 24 370 H 10 V 130 H 14"/>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="0.3" fill="#7FA3C7"><text x="40" y="286"><tspan x="40">AMBIGUITY →</tspan><tspan x="40" dy="19">DECISION BRIEF</tspan></text><text x="264" y="286"><tspan x="264">CONSTRAINTS →</tspan><tspan x="264" dy="19">SYSTEM BOUNDARY</tspan></text><text x="488" y="286"><tspan x="488">IMPLEMENTATION →</tspan><tspan x="488" dy="19">RELEASE EVIDENCE</tspan></text><text x="712" y="286"><tspan x="712">RUNTIME SIGNALS →</tspan><tspan x="712" dy="19">LEARNING BACKLOG</tspan></text></g>
+    <g stroke="#303B47"><path d="M40 322H920"/><path d="M40 354H920"/><path d="M40 386H920"/></g>
+    <text x="40" y="344" font-size="17" font-weight="650" letter-spacing="0.4">TRUST &amp; EVIDENCE</text><path d="M220 328V348" stroke="#303B47"/><text x="238" y="344" font-size="17" fill="#A7B1BC">Provenance · trust boundaries · evaluation · security · release gates</text>
+    <text x="40" y="376" font-size="17" font-weight="650" letter-spacing="0.4">RUNTIME DISCIPLINE</text><path d="M220 360V380" stroke="#303B47"/><text x="238" y="376" font-size="17" fill="#A7B1BC">Observability · SLOs · incidents · reliability · cost</text>
+    <path d="M920 316H932V434H28V316H40" fill="none" stroke="#7FA3C7" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="325" y="415" width="310" height="30" fill="#0D1117"/><text x="480" y="436" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="0.5" fill="#7FA3C7">LEARN RETURNS TO DISCOVER</text>
   </g>
 </svg>
