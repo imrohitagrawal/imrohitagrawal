@@ -1,128 +1,162 @@
-![Profile header for Rohit Agrawal](assets/profile-header.svg)
-
 # Rohit Agrawal
 
-I am a principal-level engineer extending **14+ years** of customer delivery,
-distributed systems, cloud delivery, release governance, and production
-reliability into trustworthy AI systems.
+Principal-level engineer with **14+ years** across customer delivery,
+distributed systems, cloud platforms, automation, CI/CD, observability, and
+production reliability.
 
-**CURRENT DIRECTION — Forward-Deployed AI · AI Platform Engineering · LLMOps /
-AI Reliability**
+> **Career direction:** Moving into **Forward-Deployed AI**, **AI Platform
+> Engineering**, and **LLMOps / AI Reliability**.
 
-**Bengaluru, Karnataka, India** ·
+I am applying that foundation through independent systems in grounded RAG,
+citations and refusal controls, multi-model and agentic workflows, LLM
+evaluation, provider readiness and fallback behaviour, security, cost controls,
+observability, and release governance.
+
+**Former Oracle Principal Member of Technical Staff** · **led and mentored 11+
+engineers** · **Bengaluru, India**
+
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
-[Email](mailto:rohit.ra.agrawal@gmail.com)
+[Email](mailto:rohit.ra.agrawal@gmail.com) ·
+[Selected systems ↓](#selected-independent-ai-systems)
 
-**Employer-backed foundation:** Former Oracle `Principal Member of Technical
-Staff`; customer delivery and UAT, data platforms and microservices, OCI cloud
-delivery, CI/CD, observability, and production support.
+## Engineering lifecycle
 
-**Independent portfolio:** Grounded AI applications, evaluation and reliability
-mechanisms, explicit degraded modes, cost and security controls, and governed
-release boundaries. These are independent projects, not employer systems.
+*Applying principal-level delivery, platform, and reliability engineering to
+trustworthy AI systems.*
+
+<picture>
+  <source
+    media="(max-width: 600px) and (prefers-color-scheme: dark)"
+    srcset="assets/engineering-lifecycle-mobile-dark.svg">
+  <source
+    media="(max-width: 600px)"
+    srcset="assets/engineering-lifecycle-mobile-light.svg">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="assets/engineering-lifecycle-dark.svg">
+  <img
+    src="assets/engineering-lifecycle-light.svg"
+    alt="Engineering lifecycle from Discover and Frame through Architect,
+      Build, Evaluate, Release, Operate, and Learn, with production feedback
+      returning to discovery.">
+</picture>
+
+*This lifecycle is an operating model, not a claim that every independent
+project is deployed, adopted, or operating in production.*
+
+## The direction I am building toward
+
+I am moving into Forward-Deployed AI, AI Platform Engineering, and LLMOps / AI
+Reliability by extending an established foundation in customer delivery,
+distributed systems and data platforms, release governance, and production
+reliability. The systems below are independent portfolio work—not
+employer systems. My direct AI evidence is strongest in LLM applications,
+evaluation, and reliability. Classical end-to-end MLOps remains an active
+capability-building area, not a claim of deep current expertise or complete
+lifecycle ownership.
 
 ## Selected independent AI systems
 
-### [CiteVyn](https://github.com/imrohitagrawal/citevyn)
+### 01 / CiteVyn
 
-**Problem and system.** RAG answers need traceable evidence and the discipline to
-refuse unsupported questions. CiteVyn implements citation-grounded answers,
-strict refusal envelopes, hybrid retrieval, versioned ingestion and index
-promotion, evaluation gates, Redis-backed rate limiting, and structured health
-and observability.
+**Answers a practical question:** Can I trust this AI-generated answer—and can I
+trace every claim to an authoritative source?
 
-**Maturity boundary.** A public, production-oriented application architecture
-with a repository-reported demo. No current provider health, active index state,
-users, or adoption claim is made. [Repository](https://github.com/imrohitagrawal/citevyn)
-· [Architecture and trade-offs](https://github.com/imrohitagrawal/citevyn/blob/3d28fc8bf7a9de1903881ea7211ecb79a6f79eb5/docs/ARCHITECTURE.md)
+**What it delivers:** Citation-grounded answers, strict refusal, and versioned
+retrieval with evaluation-gated index promotion.
 
-### [Quorum-AI](https://github.com/imrohitagrawal/quorum-ai)
+`Grounded RAG` · `Citations` · `Strict refusal` · `Versioned retrieval` ·
+`Evaluation gates`
 
-**Problem and system.** Multi-model analysis needs controlled parallelism,
-critique, synthesis, spend, provenance, and degraded modes. Quorum-AI uses four
-model slots, parallel initial analysis, critique rounds, structured synthesis,
-pre-run cost approval, readiness state, redaction, request IDs, metrics, and
-provider provenance.
+**State:** Public, production-oriented application architecture with a
+repository-reported demo; current provider health, active index, users, and
+adoption are not claimed.
 
-**Maturity boundary.** A public portfolio application. Live-provider execution
-is configuration-dependent; runs can disclose failed slots, fallback paths, or
-whole-run simulation, so no claim is made that every run uses four live
-providers. [Repository](https://github.com/imrohitagrawal/quorum-ai) ·
+[Repository](https://github.com/imrohitagrawal/citevyn) ·
+[Architecture and trade-offs](https://github.com/imrohitagrawal/citevyn/blob/3d28fc8bf7a9de1903881ea7211ecb79a6f79eb5/docs/ARCHITECTURE.md)
+
+### 02 / Quorum-AI
+
+**Answers a practical question:** How can I compare several models while
+controlling cost, provenance, disagreement, and degraded execution?
+
+**What it delivers:** Parallel analysis, critique, and structured synthesis with
+pre-run cost approval and explicit provider or simulation disclosure.
+
+`Multi-model orchestration` · `Critique and synthesis` · `Cost gates` ·
+`Provider provenance` · `Degraded modes`
+
+**State:** Public portfolio application; live execution is
+configuration-dependent, and runs may disclose failed slots, fallbacks, or
+whole-run simulation. Four live providers and adoption are not claimed.
+
+[Repository](https://github.com/imrohitagrawal/quorum-ai) ·
 [Architecture](https://github.com/imrohitagrawal/quorum-ai/blob/303228262d7697793a268550a3b287d27f1a1584/docs/20-architecture.md)
 
-### [SaafSaans](https://github.com/imrohitagrawal/saaf-saans)
+### 03 / SaafSaans
 
-**Problem and system.** Air-quality guidance must expose its sources, data mode,
-uncertainty, and health boundary. SaafSaans combines persona-scoped grounded
-guidance, citations, live-data adapters with labelled deterministic or sample
-fallbacks, feed provenance, a prompt-injection guard, telemetry, and security
-views.
+**Answers a practical question:** What does current air quality mean for my
+plans—and when might conditions improve?
 
-**Maturity boundary.** A public portfolio application providing general
-guidance, not medical advice. Its risk score is heuristic and not clinically
-validated;
-feeds can degrade to labelled fallback data; CPCB recomputation uses incomplete
-pollutant coverage; and WAQI data has non-commercial and redistribution
-restrictions. [Repository](https://github.com/imrohitagrawal/saaf-saans) ·
+**What it delivers:** Persona-scoped general guidance with citations, feed
+provenance, and labelled live-data, deterministic, or sample modes.
+
+`Grounded guidance` · `Citations` · `Feed provenance` · `Labelled fallbacks` ·
+`Injection guard`
+
+**State:** Public, non-medical guidance; risk scoring is heuristic, not
+clinically validated; feeds may fall back; CPCB pollutant coverage is
+incomplete; and WAQI non-commercial-use and redistribution restrictions apply.
+
+[Repository](https://github.com/imrohitagrawal/saaf-saans) ·
 [Decision record](https://github.com/imrohitagrawal/saaf-saans/blob/3bac09012cc1a5e36d24505e54d6155ff0664aa3/docs/CASE-STUDY.md)
 
-### [NarraTwin AI](https://github.com/imrohitagrawal/narratwin-ai)
+### 04 / NarraTwin AI
 
-**Problem and system.** Synthetic-media workflows need grounded scripts, claim
-evaluation, consent, provenance, and release control before media generation.
-NarraTwin AI implements project and knowledge ingestion, retrieval, cited
-scripts, unsupported-claim evaluation, UI output, consent, and governance gates.
+**Answers a practical question:** How can project knowledge become an
+audience-specific walkthrough without inventing unsupported claims?
 
-**Maturity boundary.** Local/mock Phase 1 with an explicit No-Go posture:
-local-only and single-process, with optional file-backed local restart recovery;
-this is not multi-worker or production durability. It does not establish a
-public hosted deployment, external provider-backed generation, real video
-release, or public synthetic-media distribution.
+**What it delivers:** Grounded scripts with citations, unsupported-claim
+evaluation, consent checks, and release gates before synthetic-media generation.
+
+`Grounded scripts` · `Citations` · `Claim evaluation` · `Consent` ·
+`Release governance`
+
+**State:** Local/mock Phase 1 under explicit No-Go: local-only and
+single-process, with optional file-backed restart recovery—not multi-worker or
+production durability. No hosted deployment, provider-backed generation, real
+video release, or public distribution is established.
+
 [Repository](https://github.com/imrohitagrawal/narratwin-ai) ·
-[Release-readiness evidence](https://github.com/imrohitagrawal/narratwin-ai/blob/454025c403334933306142f65bc3e25541eeb23e/docs/RELEASE_READINESS_REVIEW.md)
+[Release readiness](https://github.com/imrohitagrawal/narratwin-ai/blob/454025c403334933306142f65bc3e25541eeb23e/docs/RELEASE_READINESS_REVIEW.md)
 
 ## Established engineering foundation
 
-I was an Oracle **Principal Member of Technical Staff** from April 2019 to April
-2026. Across employer-backed work, my engineering foundation spans customer
-delivery and UAT;
-distributed systems, analytics, data platforms, and microservices; cloud
-delivery, with OCI as my strongest professional cloud; CI/CD, release governance,
-and engineering productivity; automation architecture; telemetry, canaries,
-dashboards, alarms, and runtime validation; and production troubleshooting,
-runbooks, reliability, and incident detection.
+From April 2019 to April 2026, I was an Oracle **Principal Member of Technical
+Staff**. Across employer-backed work, my foundation spans customer delivery and
+UAT; distributed systems, analytics, data platforms, and microservices; OCI
+cloud delivery—my strongest professional cloud; CI/CD, release governance, and
+automation architecture; and telemetry, canaries, dashboards, alarms, runtime
+validation, and production reliability.
 
-My technical leadership includes having **led and mentored 11+ engineers**.
-
-Selected professional outcomes, kept separate from the independent AI projects:
+Selected professional outcomes, separate from my independent AI portfolio:
 
 - MTTD reduced approximately 35% through telemetry and dashboards.
 - Targeted release workflows reduced cycle time approximately 25%.
 
-## How I engineer for trust
+## Engineering principles
 
 > Engineer for trust before deployment. Validate reliability continuously in
-> production.
->
-> Shift-left by default. Shift-right by design.
+> production. Shift-left by default. Shift-right by design.
 
-I make evidence boundaries, failure modes, degraded-mode disclosure,
-observability, evaluation, and release gates part of system design. This is a
-method for systems that may be deployed, not a claim that every portfolio
-project is deployed or operating in production.
+I make evaluation, observability, explicit degraded modes, security, and release
+gates part of system design.
 
-## Current capability building
-
-My direct AI evidence is strongest in LLM applications, evaluation, and
-reliability systems. Forward-deployed readiness builds on established customer
-delivery, UAT, integration, and production-support experience. I am deliberately
-building classical end-to-end MLOps capability; I do not claim deep current
-lifecycle ownership.
-
-## Connect
+## Contact
 
 I am open to conversations about Forward-Deployed AI, AI platform engineering,
-LLMOps / AI reliability, and principal-level systems and reliability work.
+and LLMOps / AI reliability.
+Based in Bengaluru, India; **open to relocation globally**.
 
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
 [Email](mailto:rohit.ra.agrawal@gmail.com)

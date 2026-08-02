@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1280" viewBox="0 0 600 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering lifecycle for mobile</title>
+  <desc id="desc">Eight vertically ordered stages move from customer discovery through architecture, delivery, evaluation, release, operation, and production learning, with feedback returning to discovery.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#486A8B"/>
+    </marker>
+  </defs>
+  <rect width="600" height="1280" fill="#F7F5F0"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
+    <g transform="translate(40 28)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">01</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Discover</text><text x="24" y="82" fill="#52606D" font-size="26">Customer problem · users · outcomes</text></g>
+    <g transform="translate(40 182)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">02</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Frame</text><text x="24" y="82" fill="#52606D" font-size="26">Requirements · constraints · risks · data</text></g>
+    <g transform="translate(40 336)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">03</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Architect</text><text x="24" y="82" fill="#52606D" font-size="26">Services · APIs · data · trust boundaries</text></g>
+    <g transform="translate(40 490)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">04</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Build</text><text x="24" y="82" fill="#52606D" font-size="26">AI workflows · integrations · platform</text></g>
+    <g transform="translate(40 644)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">05</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Evaluate</text><text x="24" y="82" fill="#52606D" font-size="26">Tests · LLM evals · security · performance</text></g>
+    <g transform="translate(40 798)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">06</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Release</text><text x="24" y="82" fill="#52606D" font-size="26">CI/CD · gates · canaries · rollback</text></g>
+    <g transform="translate(40 952)"><rect width="520" height="126" fill="#FEFDFB" stroke="#7B8794" stroke-width="3"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">07</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Operate</text><text x="24" y="82" fill="#52606D" font-size="26">Observability · SLOs · incidents</text><text x="24" y="112" fill="#52606D" font-size="26">Reliability · cost</text></g>
+    <g transform="translate(40 1106)"><rect width="520" height="126" fill="#FEFDFB" stroke="#486A8B" stroke-width="4"/><text x="24" y="42" fill="#486A8B" font-size="24" font-weight="700">08</text><text x="82" y="43" fill="#1F2933" font-size="32" font-weight="700">Learn</text><text x="24" y="82" fill="#52606D" font-size="26">Production feedback · adoption</text><text x="24" y="112" fill="#52606D" font-size="26">Continuous improvement</text></g>
+  </g>
+  <g fill="none" stroke="#486A8B" stroke-width="5" marker-end="url(#arrow)">
+    <path d="M 300 154 V 170"/><path d="M 300 308 V 324"/><path d="M 300 462 V 478"/><path d="M 300 616 V 632"/><path d="M 300 770 V 786"/><path d="M 300 924 V 940"/><path d="M 300 1078 V 1094"/>
+    <path d="M 40 1169 H 16 V 91 H 28"/>
+  </g>
+</svg>

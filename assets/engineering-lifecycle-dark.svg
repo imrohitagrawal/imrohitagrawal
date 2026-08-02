@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering lifecycle</title>
+  <desc id="desc">Eight stages move from customer discovery through architecture, delivery, evaluation, release, operation, and production learning, with feedback returning to discovery.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7FA3C7"/>
+    </marker>
+  </defs>
+  <rect width="960" height="500" fill="#0D1117"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif">
+    <g transform="translate(24 50)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">01</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Discover</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Customer problem</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Users</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Outcomes</text>
+    </g>
+    <g transform="translate(258 50)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">02</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Frame</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Requirements</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Constraints · risks</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Data</text>
+    </g>
+    <g transform="translate(492 50)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">03</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Architect</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Services · APIs</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Data</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Trust boundaries</text>
+    </g>
+    <g transform="translate(726 50)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">04</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Build</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">AI workflows</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Integrations</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Platform</text>
+    </g>
+    <g transform="translate(726 290)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">05</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Evaluate</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Tests · LLM evals</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Security</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Performance</text>
+    </g>
+    <g transform="translate(492 290)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">06</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Release</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">CI/CD · gates</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Canaries</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Rollback</text>
+    </g>
+    <g transform="translate(258 290)">
+      <rect width="210" height="160" fill="#161B22" stroke="#6B7683" stroke-width="2"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">07</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Operate</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Observability</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">SLOs · incidents</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Reliability · cost</text>
+    </g>
+    <g transform="translate(24 290)">
+      <rect width="210" height="160" fill="#161B22" stroke="#7FA3C7" stroke-width="3"/>
+      <text x="18" y="36" fill="#7FA3C7" font-size="21" font-weight="700">08</text>
+      <text x="58" y="37" fill="#F0F6FC" font-size="28" font-weight="700">Learn</text>
+      <text x="18" y="82" fill="#AAB4BE" font-size="22">Production</text>
+      <text x="18" y="111" fill="#AAB4BE" font-size="22">Feedback · adoption</text>
+      <text x="18" y="140" fill="#AAB4BE" font-size="22">Improvement</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#7FA3C7" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M 234 130 H 246"/>
+    <path d="M 468 130 H 480"/>
+    <path d="M 702 130 H 714"/>
+    <path d="M 831 210 V 278"/>
+    <path d="M 726 370 H 714"/>
+    <path d="M 492 370 H 480"/>
+    <path d="M 258 370 H 246"/>
+    <path d="M 24 370 H 10 V 130 H 14"/>
+  </g>
+</svg>
