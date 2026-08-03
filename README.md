@@ -22,15 +22,14 @@ leadership:** Led and mentored 11+ engineers
 
 After my Oracle role concluded in April 2026, I chose a focused period for:
 
-- **Full-time portfolio engineering** across applied-AI systems
-- **AI-platform portfolio development** with inspectable architecture,
-  evaluation, reliability, and release evidence
+- **Full-time portfolio engineering** across applied AI systems
+- **Evidence-led AI platform development** with inspectable architecture,
+  evaluation, reliability, and release controls
 - **Targeted professional upskilling** in Forward-Deployed AI, AI Platform
   Engineering, LLMOps / AI Reliability, and end-to-end MLOps
 
-This period combines independent portfolio engineering, targeted upskilling,
-and a personal break—not a formal role; the systems are independent, not
-employer projects.
+This focused period also includes a personal break; these systems are
+independent work, not employer projects.
 
 ## How I deliver trustworthy systems
 
@@ -153,7 +152,8 @@ collaboration across devices, e-commerce, search, payments and telecom systems.
 Most recently, I served as an Oracle **Principal Member of Technical Staff**
 from April 2019 to April 2026, with OCI as my strongest professional cloud.
 
-Employer-backed outcomes, separate from my independent portfolio:
+Selected outcomes from my Oracle tenure, separate from my independent
+portfolio:
 
 - MTTD reduced approximately 35% through telemetry and dashboards.
 - Targeted release workflows reduced cycle time approximately 25%.
@@ -174,7 +174,7 @@ Engineering**, and **LLMOps / AI Reliability**.
 Also open to closely aligned roles across **AI Quality & Test Engineering**,
 **AI/ML SDET and Test Architecture**, and **AI Platform & DevOps**.
 
-Based in Bengaluru, India; **open to relocation globally and international
+Based in Bengaluru, India; **open to global relocation and international
 travel**.
 
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
