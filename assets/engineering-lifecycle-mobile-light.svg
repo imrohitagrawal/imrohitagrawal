@@ -38,7 +38,7 @@
       <text x="58" y="560"><tspan x="58">Tests · LLM evals</tspan><tspan x="58" dy="28">Security · perf.</tspan></text>
       <text x="318" y="560"><tspan x="318">CI/CD · gates</tspan><tspan x="318" dy="28">Canaries · rollback</tspan></text>
       <text x="58" y="736"><tspan x="58">Observability · SLOs</tspan><tspan x="58" dy="28">Incidents · cost</tspan></text>
-      <text x="318" y="736"><tspan x="318">Production feedback</tspan><tspan x="318" dy="28">Adoption · improvement</tspan></text>
+      <text x="318" y="736"><tspan x="318">Production feedback</tspan><tspan x="318" dy="28">Adoption · learning</tspan></text>
     </g>
 
     <g stroke="#C7CDD4"><path d="M58 806H568"/><path d="M58 884H568"/><path d="M58 962H568"/></g>
