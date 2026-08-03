@@ -1,8 +1,8 @@
 # Rohit Agrawal
 
-I’m a principal-level engineer with **14+ years** across customer delivery,
-distributed systems, cloud platforms, automation, CI/CD, observability, and
-production reliability.
+I’m a principal-level engineer with **14+ years** across distributed systems,
+cloud platforms, automation, CI/CD, observability, production reliability, and
+customer-facing delivery.
 
 > **Career direction:** Moving into **Forward-Deployed AI**, **AI Platform
 > Engineering**, and **LLMOps / AI Reliability**.
