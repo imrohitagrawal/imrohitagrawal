@@ -22,15 +22,15 @@ leadership:** Led and mentored 11+ engineers
 
 After my Oracle role concluded in April 2026, I chose a focused period for:
 
-- **Full-time independent engineering** across applied-AI systems
+- **Full-time portfolio engineering** across applied-AI systems
 - **AI-platform portfolio development** with inspectable architecture,
   evaluation, reliability, and release evidence
 - **Targeted professional upskilling** in Forward-Deployed AI, AI Platform
   Engineering, LLMOps / AI Reliability, and end-to-end MLOps
 
-This is portfolio work—not employment, consultancy, or employer work. It
-accompanies a personal break and repositioning, extending my delivery,
-platform, and reliability foundation.
+This period combines independent portfolio engineering, targeted upskilling,
+and a personal break—not a formal role; the systems are independent, not
+employer projects.
 
 ## How I deliver trustworthy systems
 
@@ -61,11 +61,12 @@ discipline at every stage.*
 - **Design & Deliver:** Define boundaries, services, APIs, data and trust
   decisions; build workflows, integrations and platform capabilities →
   **system boundary**
-- **Assure & Ship:** Evaluate quality, LLM behaviour, security and performance;
-  release through CI/CD, gates, canaries and rollback → **release evidence**
+- **Assure & Ship:** Run system tests and LLM evaluations for quality, security
+  and performance; release through CI/CD, gates, canaries and rollback →
+  **release evidence**
 - **Run & Improve:** Operate with observability, SLOs, incidents, reliability
-  and cost controls; when systems are deployed, learn from production feedback
-  and adoption → **learning backlog**
+  and cost controls; when systems are deployed, learn from production feedback,
+  adoption, and improvement → **learning backlog**
 - **Across every stage:** Trust, provenance, evaluation, security, release
   governance and runtime discipline
 - **Feedback loop:** Learning informs the next discovery cycle
@@ -142,15 +143,15 @@ distribution.
 
 ## Established engineering foundation
 
-At Oracle (April 2019–April 2026), I was a **Principal Member of Technical
-Staff**. My employer-backed foundation spans customer delivery/UAT; distributed
-systems, analytics, data platforms, and microservices; OCI—my strongest
-professional cloud; CI/CD, release governance, and automation architecture;
-telemetry, canaries, runtime validation, and production reliability.
+Across **Oracle, Amazon, LimeRoad, Mobileum, Snapdeal, and Subex**, my
+employer-backed experience spans distributed systems, cloud analytics, data
+platforms and microservices; automation architecture, CI/CD and release
+governance; observability, canaries, runtime validation and production
+reliability; and customer-facing delivery, integration, UAT and stakeholder
+collaboration across devices, e-commerce, search, payments and telecom systems.
 
-Earlier roles across Amazon and product-led companies broadened this foundation
-across devices, e-commerce, search, payments, telecom/data systems, and direct
-customer delivery.
+Most recently, I served as an Oracle **Principal Member of Technical Staff**
+from April 2019 to April 2026, with OCI as my strongest professional cloud.
 
 Employer-backed outcomes, separate from my independent portfolio:
 
@@ -173,7 +174,8 @@ Engineering**, and **LLMOps / AI Reliability**.
 Also open to closely aligned roles across **AI Quality & Test Engineering**,
 **AI/ML SDET and Test Architecture**, and **AI Platform & DevOps**.
 
-Based in Bengaluru, India; **open to relocation and international travel**.
+Based in Bengaluru, India; **open to relocation globally and international
+travel**.
 
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
 [Email](mailto:rohit.ra.agrawal@gmail.com)
