@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Outcome-first trustworthy systems delivery model</title>
+  <desc id="desc">Four gates move from Discover through Learn. Decision Brief enables System Boundary, then Release Evidence and Learning Backlog. Trust &amp; Evidence and Runtime Discipline span every gate. Learn informs the next Discover cycle.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#7FA3C7"/></marker>
+  </defs>
+  <rect width="960" height="440" fill="#0D1117"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#E6EDF3">
+    <text x="40" y="34" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="1.2" fill="#A7B1BC">TRUSTWORTHY SYSTEMS DELIVERY MODEL</text>
+    <path d="M440 30H920" stroke="#303B47"/><path d="M40 54H920" stroke="#303B47"/>
+    <g stroke="#303B47"><path d="M264 76V284"/><path d="M488 76V284"/><path d="M712 76V284"/></g>
+    <g stroke="#7FA3C7" stroke-width="2"><path d="M40 76V98"/><path d="M264 76V98"/><path d="M488 76V98"/><path d="M712 76V98"/></g>
+    <g font-size="17" font-weight="650" letter-spacing="0.5"><text x="52" y="94">UNDERSTAND</text><text x="276" y="94">DESIGN &amp; DELIVER</text><text x="500" y="94">ASSURE &amp; SHIP</text><text x="724" y="94">RUN &amp; IMPROVE</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" fill="#7FA3C7"><text x="40" y="126">DECISION BRIEF</text><text x="264" y="126">SYSTEM BOUNDARY</text><text x="488" y="126">RELEASE EVIDENCE</text><text x="712" y="126">LEARNING BACKLOG</text></g>
+    <g fill="none" stroke="#7FA3C7" stroke-width="1.5" marker-end="url(#arrow)"><path d="M204 120H244"/><path d="M428 120H468"/><path d="M652 120H692"/></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" fill="#7FA3C7"><text x="40" y="166">01</text><text x="40" y="236">02</text><text x="264" y="166">03</text><text x="264" y="236">04</text><text x="488" y="166">05</text><text x="488" y="236">06</text><text x="712" y="166">07</text><text x="712" y="236">08</text></g>
+    <g font-size="18" font-weight="650"><text x="70" y="166">Discover</text><text x="70" y="236">Frame</text><text x="294" y="166">Architect</text><text x="294" y="236">Build</text><text x="518" y="166">Evaluate</text><text x="518" y="236">Release</text><text x="742" y="166">Operate</text><text x="742" y="236">Learn</text></g>
+    <g font-size="17" fill="#A7B1BC">
+      <text x="40" y="192"><tspan x="40">Customer problem</tspan><tspan x="40" dy="21">Users · outcomes</tspan></text><text x="40" y="262"><tspan x="40">Requirements · constraints</tspan><tspan x="40" dy="21">Risks · data</tspan></text>
+      <text x="264" y="192"><tspan x="264">Services · APIs</tspan><tspan x="264" dy="21">Trust boundaries</tspan></text><text x="264" y="262">AI workflows</text>
+      <text x="488" y="192"><tspan x="488">LLM evaluation</tspan><tspan x="488" dy="21">Security</tspan></text><text x="488" y="262"><tspan x="488">CI/CD · gates</tspan><tspan x="488" dy="21">Canaries · rollback</tspan></text>
+      <text x="712" y="192"><tspan x="712">Observability · SLOs</tspan><tspan x="712" dy="21">Incidents · cost</tspan></text><text x="712" y="262">Feedback · learning</text>
+    </g>
+    <rect x="40" y="302" width="880" height="32" fill="#151B23"/><rect x="40" y="338" width="880" height="32" fill="#151B23"/>
+    <g stroke="#303B47"><path d="M40 302H920"/><path d="M40 334H920"/><path d="M40 338H920"/><path d="M40 370H920"/></g>
+    <text x="52" y="325" font-size="17" font-weight="650" letter-spacing="0.4">TRUST &amp; EVIDENCE</text><path d="M238 308V328" stroke="#303B47"/><text x="256" y="325" font-size="17" fill="#A7B1BC">Provenance · trust · evaluation · gates</text>
+    <text x="52" y="361" font-size="17" font-weight="650" letter-spacing="0.4">RUNTIME DISCIPLINE</text><path d="M238 344V364" stroke="#303B47"/><text x="256" y="361" font-size="17" fill="#A7B1BC">SLOs · incidents · reliability · cost</text>
+    <circle cx="886" cy="262" r="3" fill="#7FA3C7"/><path d="M886 262H932V412H16V166H34" fill="none" stroke="#7FA3C7" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="296" y="397" width="368" height="30" fill="#0D1117"/><text x="480" y="418" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="0.5" fill="#7FA3C7">LEARN INFORMS NEXT DISCOVER</text>
+  </g>
+</svg>

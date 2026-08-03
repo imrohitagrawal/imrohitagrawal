@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="1018" viewBox="0 0 600 1018" role="img" aria-labelledby="title desc">
+  <title id="title">Outcome-first trustworthy systems delivery model for mobile</title>
+  <desc id="desc">Four gates move from Discover through Learn. Decision Brief enables System Boundary, then Release Evidence and Learning Backlog. Trust &amp; Evidence and Runtime Discipline span every gate. Learn informs the next Discover cycle.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#7FA3C7"/></marker></defs>
+  <rect width="600" height="1018" fill="#0D1117"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#E6EDF3">
+    <text x="32" y="40" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="0.4" fill="#A7B1BC">TRUSTWORTHY SYSTEMS DELIVERY MODEL</text><path d="M32 58H568" stroke="#303B47"/>
+    <path d="M32 88V786" stroke="#7FA3C7" stroke-width="2" marker-end="url(#arrow)"/>
+    <g fill="#0D1117" stroke="#7FA3C7" stroke-width="2"><circle cx="32" cy="94" r="6"/><circle cx="32" cy="270" r="6"/><circle cx="32" cy="446" r="6"/><circle cx="32" cy="622" r="6"/></g>
+    <g stroke="#303B47"><path d="M58 258H568"/><path d="M58 434H568"/><path d="M58 610H568"/><path d="M58 786H568"/></g>
+    <g font-size="30" font-weight="650"><text x="58" y="100">UNDERSTAND</text><text x="58" y="276">DESIGN &amp; DELIVER</text><text x="58" y="452">ASSURE &amp; SHIP</text><text x="58" y="628">RUN &amp; IMPROVE</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" fill="#7FA3C7"><text x="58" y="136">DECISION BRIEF</text><text x="58" y="312">SYSTEM BOUNDARY</text><text x="58" y="488">RELEASE EVIDENCE</text><text x="58" y="664">LEARNING BACKLOG</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" fill="#7FA3C7"><text x="58" y="178">01</text><text x="318" y="178">02</text><text x="58" y="354">03</text><text x="318" y="354">04</text><text x="58" y="530">05</text><text x="318" y="530">06</text><text x="58" y="706">07</text><text x="318" y="706">08</text></g>
+    <g font-size="30" font-weight="650"><text x="106" y="178">Discover</text><text x="366" y="178">Frame</text><text x="106" y="354">Architect</text><text x="366" y="354">Build</text><text x="106" y="530">Evaluate</text><text x="366" y="530">Release</text><text x="106" y="706">Operate</text><text x="366" y="706">Learn</text></g>
+    <g font-size="26" fill="#A7B1BC">
+      <text x="58" y="212"><tspan x="58">Customer problem</tspan><tspan x="58" dy="28">Users · outcomes</tspan></text><text x="318" y="212"><tspan x="318">Requirements · data</tspan><tspan x="318" dy="28">Constraints · risks</tspan></text>
+      <text x="58" y="388"><tspan x="58">Services · APIs</tspan><tspan x="58" dy="28">Trust boundaries</tspan></text><text x="318" y="388">AI workflows</text>
+      <text x="58" y="564"><tspan x="58">LLM evaluation</tspan><tspan x="58" dy="28">Security</tspan></text><text x="318" y="564"><tspan x="318">CI/CD · gates</tspan><tspan x="318" dy="28">Canaries · rollback</tspan></text>
+      <text x="58" y="740"><tspan x="58">Observability · SLOs</tspan><tspan x="58" dy="28">Incidents · cost</tspan></text><text x="318" y="740">Feedback · learning</text>
+    </g>
+    <rect x="58" y="806" width="510" height="74" fill="#151B23"/><rect x="58" y="884" width="510" height="74" fill="#151B23"/>
+    <g stroke="#303B47"><path d="M58 806H568"/><path d="M58 880H568"/><path d="M58 884H568"/><path d="M58 958H568"/></g>
+    <text x="70" y="838" font-size="28" font-weight="650">TRUST &amp; EVIDENCE</text><text x="70" y="872" font-size="26" fill="#A7B1BC">Provenance · trust · evaluation · gates</text>
+    <text x="70" y="916" font-size="28" font-weight="650">RUNTIME DISCIPLINE</text><text x="70" y="950" font-size="26" fill="#A7B1BC">SLOs · incidents · reliability · cost</text>
+    <circle cx="540" cy="706" r="4" fill="#7FA3C7"/><path d="M540 706H582V996H18V178H48" fill="none" stroke="#7FA3C7" stroke-width="2" marker-end="url(#arrow)"/><rect x="54" y="974" width="492" height="36" fill="#0D1117"/><text x="300" y="1002" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" letter-spacing="0.2" fill="#7FA3C7">LEARN INFORMS NEXT DISCOVER</text>
+  </g>
+</svg>
