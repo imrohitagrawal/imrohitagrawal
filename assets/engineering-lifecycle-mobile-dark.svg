@@ -1,54 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="1018" viewBox="0 0 600 1018" role="img" aria-labelledby="title desc">
-  <title id="title">Trustworthy systems delivery model for mobile</title>
-  <desc id="desc">Four stacked delivery gates pair eight stages from discovery to learning. Trust and runtime controls span the model, and learning returns to discovery.</desc>
-  <defs>
-    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 10 5 0 10Z" fill="#7FA3C7"/>
-    </marker>
-  </defs>
+  <title id="title">Outcome-first trustworthy systems delivery model for mobile</title>
+  <desc id="desc">Four stacked delivery gates connect customer discovery, a system boundary, release evidence, runtime operation, and production learning. Trust and runtime controls span every gate, and learning returns to discovery.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#7FA3C7"/></marker></defs>
   <rect width="600" height="1018" fill="#0D1117"/>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" fill="#E6EDF3">
-    <text x="32" y="40" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="0.4" fill="#A7B1BC">TRUSTWORTHY SYSTEMS DELIVERY MODEL</text>
-    <path d="M32 58H568" stroke="#303B47"/>
+    <text x="32" y="40" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="0.4" fill="#A7B1BC">TRUSTWORTHY SYSTEMS DELIVERY MODEL</text><path d="M32 58H568" stroke="#303B47"/>
     <path d="M32 88V786" stroke="#7FA3C7" stroke-width="2" marker-end="url(#arrow)"/>
-    <g fill="#0D1117" stroke="#7FA3C7" stroke-width="2">
-      <circle cx="32" cy="94" r="6"/><circle cx="32" cy="270" r="6"/><circle cx="32" cy="446" r="6"/><circle cx="32" cy="622" r="6"/>
-    </g>
+    <g fill="#0D1117" stroke="#7FA3C7" stroke-width="2"><circle cx="32" cy="94" r="6"/><circle cx="32" cy="270" r="6"/><circle cx="32" cy="446" r="6"/><circle cx="32" cy="622" r="6"/></g>
     <g stroke="#303B47"><path d="M58 258H568"/><path d="M58 434H568"/><path d="M58 610H568"/><path d="M58 786H568"/></g>
-
-    <g font-size="26" font-weight="650">
-      <text x="58" y="100">UNDERSTAND</text><text x="58" y="276">DESIGN &amp; DELIVER</text><text x="58" y="452">ASSURE &amp; SHIP</text><text x="58" y="628">RUN &amp; IMPROVE</text>
-    </g>
-    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="#7FA3C7">
-      <text x="58" y="134">OUTPUT: DECISION BRIEF</text><text x="58" y="310">OUTPUT: SYSTEM BOUNDARY</text><text x="58" y="486">OUTPUT: RELEASE EVIDENCE</text><text x="58" y="662">OUTPUT: LEARNING BACKLOG</text>
-    </g>
-    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" fill="#7FA3C7">
-      <text x="58" y="174">01</text><text x="318" y="174">02</text><text x="58" y="350">03</text><text x="318" y="350">04</text>
-      <text x="58" y="526">05</text><text x="318" y="526">06</text><text x="58" y="702">07</text><text x="318" y="702">08</text>
-    </g>
-    <g font-size="28" font-weight="650">
-      <text x="104" y="174">Discover</text><text x="364" y="174">Frame</text><text x="104" y="350">Architect</text><text x="364" y="350">Build</text>
-      <text x="104" y="526">Evaluate</text><text x="364" y="526">Release</text><text x="104" y="702">Operate</text><text x="364" y="702">Learn</text>
-    </g>
+    <g font-size="30" font-weight="650"><text x="58" y="100">UNDERSTAND</text><text x="58" y="276">DESIGN &amp; DELIVER</text><text x="58" y="452">ASSURE &amp; SHIP</text><text x="58" y="628">RUN &amp; IMPROVE</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" fill="#7FA3C7"><text x="58" y="136">DECISION BRIEF</text><text x="58" y="312">SYSTEM BOUNDARY</text><text x="58" y="488">RELEASE EVIDENCE</text><text x="58" y="664">LEARNING BACKLOG</text></g>
+    <g font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" fill="#7FA3C7"><text x="58" y="178">01</text><text x="318" y="178">02</text><text x="58" y="354">03</text><text x="318" y="354">04</text><text x="58" y="530">05</text><text x="318" y="530">06</text><text x="58" y="706">07</text><text x="318" y="706">08</text></g>
+    <g font-size="30" font-weight="650"><text x="106" y="178">Discover</text><text x="366" y="178">Frame</text><text x="106" y="354">Architect</text><text x="366" y="354">Build</text><text x="106" y="530">Evaluate</text><text x="366" y="530">Release</text><text x="106" y="706">Operate</text><text x="366" y="706">Learn</text></g>
     <g font-size="26" fill="#A7B1BC">
-      <text x="58" y="208"><tspan x="58">Customer problem</tspan><tspan x="58" dy="28">Users · outcomes</tspan></text>
-      <text x="318" y="208"><tspan x="318">Requirements · data</tspan><tspan x="318" dy="28">Constraints · risks</tspan></text>
-      <text x="58" y="384"><tspan x="58">Services · APIs · data</tspan><tspan x="58" dy="28">Trust boundaries</tspan></text>
-      <text x="318" y="384"><tspan x="318">AI workflows</tspan><tspan x="318" dy="28">Integrations · platform</tspan></text>
-      <text x="58" y="560"><tspan x="58">Tests · LLM evals</tspan><tspan x="58" dy="28">Security · perf.</tspan></text>
-      <text x="318" y="560"><tspan x="318">CI/CD · gates</tspan><tspan x="318" dy="28">Canaries · rollback</tspan></text>
-      <text x="58" y="736"><tspan x="58">Observability · SLOs</tspan><tspan x="58" dy="28">Incidents · cost</tspan></text>
-      <text x="318" y="736"><tspan x="318">Production feedback</tspan><tspan x="318" dy="28">Adoption · learning</tspan></text>
+      <text x="58" y="212"><tspan x="58">Customer problem</tspan><tspan x="58" dy="28">Users · outcomes</tspan></text><text x="318" y="212"><tspan x="318">Requirements · data</tspan><tspan x="318" dy="28">Constraints · risks</tspan></text>
+      <text x="58" y="388"><tspan x="58">Services · APIs</tspan><tspan x="58" dy="28">Trust boundaries</tspan></text><text x="318" y="388"><tspan x="318">Workflows · integrations</tspan><tspan x="318" dy="28">Platform</tspan></text>
+      <text x="58" y="564"><tspan x="58">LLM evaluation</tspan><tspan x="58" dy="28">Security</tspan></text><text x="318" y="564"><tspan x="318">CI/CD · gates</tspan><tspan x="318" dy="28">Canaries · rollback</tspan></text>
+      <text x="58" y="740"><tspan x="58">Observability · SLOs</tspan><tspan x="58" dy="28">Incidents · cost</tspan></text><text x="318" y="740"><tspan x="318">Feedback · adoption</tspan><tspan x="318" dy="28">Improvement</tspan></text>
     </g>
-
     <g stroke="#303B47"><path d="M58 806H568"/><path d="M58 884H568"/><path d="M58 962H568"/></g>
-    <text x="58" y="836" font-size="26" font-weight="650">TRUST &amp; EVIDENCE</text>
-    <text x="58" y="868" font-size="26" fill="#A7B1BC">Provenance · trust · evaluation · gates</text>
-    <text x="58" y="914" font-size="26" font-weight="650">RUNTIME DISCIPLINE</text>
-    <text x="58" y="946" font-size="26" fill="#A7B1BC">Observability · SLOs · reliability · cost</text>
-
-    <path d="M568 622H582V996H18V94H50" fill="none" stroke="#7FA3C7" stroke-width="2" marker-end="url(#arrow)"/>
-    <rect x="88" y="974" width="424" height="36" fill="#0D1117"/>
-    <text x="300" y="1001" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="26" letter-spacing="0.5" fill="#7FA3C7">LEARN RETURNS TO DISCOVER</text>
+    <text x="58" y="838" font-size="28" font-weight="650">TRUST &amp; EVIDENCE</text><text x="58" y="872" font-size="26" fill="#A7B1BC">Provenance · trust · evaluation · gates</text>
+    <text x="58" y="916" font-size="28" font-weight="650">RUNTIME DISCIPLINE</text><text x="58" y="950" font-size="26" fill="#A7B1BC">SLOs · incidents · reliability · cost</text>
+    <path d="M568 622H582V996H18V94H50" fill="none" stroke="#7FA3C7" stroke-width="2" marker-end="url(#arrow)"/><rect x="76" y="974" width="448" height="36" fill="#0D1117"/><text x="300" y="1002" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="28" letter-spacing="0.3" fill="#7FA3C7">LEARN RETURNS TO DISCOVER</text>
   </g>
 </svg>

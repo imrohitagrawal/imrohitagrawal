@@ -1,28 +1,41 @@
 # Rohit Agrawal
 
-Principal-level engineer with **14+ years** across customer delivery,
+I’m a principal-level engineer with **14+ years** across customer delivery,
 distributed systems, cloud platforms, automation, CI/CD, observability, and
 production reliability.
 
 > **Career direction:** Moving into **Forward-Deployed AI**, **AI Platform
 > Engineering**, and **LLMOps / AI Reliability**.
 
-Applying that foundation, I build independent systems spanning grounded RAG,
-citation/refusal controls, multi-model and agentic workflows, LLM evaluation,
-provider readiness/fallbacks, AI reliability, security, cost, observability,
-and release governance.
+Now I extend that foundation through independent, inspectable AI systems spanning
+grounded RAG, multi-model and agentic workflows, LLM evaluation, reliability,
+security, cost controls, observability, and release governance.
 
-**Former Oracle Principal Member of Technical Staff** · **led and mentored 11+
-engineers** · **Bengaluru, India**
+**Most recently:** Oracle Principal Member of Technical Staff · **Technical
+leadership:** Led and mentored 11+ engineers
 
+[Explore selected AI systems](#selected-independent-ai-systems) ·
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
-[Email](mailto:rohit.ra.agrawal@gmail.com) ·
-[Selected systems ↓](#selected-independent-ai-systems)
+[Email](mailto:rohit.ra.agrawal@gmail.com)
+
+## What I am building now
+
+After my Oracle role concluded in April 2026, I chose a focused period for:
+
+- **Full-time independent engineering** across applied-AI systems
+- **AI-platform portfolio development** with inspectable architecture,
+  evaluation, reliability, and release evidence
+- **Targeted professional upskilling** in Forward-Deployed AI, AI Platform
+  Engineering, LLMOps / AI Reliability, and end-to-end MLOps
+
+This is portfolio work—not employment, consultancy, or employer work. It
+accompanies a personal break and repositioning, extending my delivery,
+platform, and reliability foundation.
 
 ## How I deliver trustworthy systems
 
-*Applying principal-level delivery, platform, and reliability engineering to
-trustworthy AI systems.*
+*From customer ambiguity to production learning—with trust and runtime
+discipline at every stage.*
 
 <picture>
   <source
@@ -36,32 +49,28 @@ trustworthy AI systems.*
     srcset="assets/engineering-lifecycle-dark.svg">
   <img
     src="assets/engineering-lifecycle-light.svg"
-    alt="Four-gate trustworthy systems delivery model: Understand covers
-      Discover (customer problem, users, outcomes) and Frame (requirements,
-      constraints, risks, data), producing a decision brief; Design &amp; Deliver
-      covers Architect (services, APIs, data, trust boundaries) and Build (AI
-      workflows, integrations, platform), producing a system boundary; Assure &amp;
-      Ship covers Evaluate (tests, LLM evaluations, security, performance) and
-      Release (CI/CD, quality gates, canaries, rollback), producing release
-      evidence; Run &amp; Improve covers Operate (observability, SLOs, incidents,
-      reliability, cost) and Learn (production feedback, adoption, improvement),
-      creating a learning backlog. Trust &amp; Evidence and Runtime Discipline span
-      every gate; Learn returns to Discover.">
+    alt="Four-gate model for delivering trustworthy systems from discovery
+      through production learning.">
 </picture>
 
-## What I am building now
+<details>
+<summary>Read the delivery model as text</summary>
 
-After my Oracle role concluded in April 2026, I chose a focused period for:
+- **Understand:** Discover customer problems and frame requirements,
+  constraints, risks, data, stakeholders, and outcomes → **decision brief**
+- **Design & Deliver:** Define boundaries, services, APIs, data and trust
+  decisions; build workflows, integrations and platform capabilities →
+  **system boundary**
+- **Assure & Ship:** Evaluate quality, LLM behaviour, security and performance;
+  release through CI/CD, gates, canaries and rollback → **release evidence**
+- **Run & Improve:** Operate with observability, SLOs, incidents, reliability
+  and cost controls; when systems are deployed, learn from production feedback
+  and adoption → **learning backlog**
+- **Across every stage:** Trust, provenance, evaluation, security, release
+  governance and runtime discipline
+- **Feedback loop:** Learning informs the next discovery cycle
 
-- **Full-time independent engineering** across applied-AI systems
-- **AI-platform portfolio development** with inspectable architecture,
-  evaluation, reliability, and release evidence
-- **Targeted professional upskilling** in Forward-Deployed AI, AI Platform
-  Engineering, LLMOps / AI Reliability, and end-to-end MLOps
-
-This independent—not employer—work accompanies a personal break and deliberate
-career repositioning, extending my delivery, platform, and reliability
-foundation.
+</details>
 
 ## Selected independent AI systems
 
@@ -79,7 +88,6 @@ evaluation-gated index promotion.
 **State:** Public portfolio with production-oriented controls;
 current deployment, provider, index, users, and adoption are not asserted.
 
-[Repository](https://github.com/imrohitagrawal/citevyn) ·
 [Architecture and trade-offs](https://github.com/imrohitagrawal/citevyn/blob/3d28fc8bf7a9de1903881ea7211ecb79a6f79eb5/docs/ARCHITECTURE.md)
 
 ### 02 / [Quorum-AI](https://github.com/imrohitagrawal/quorum-ai)
@@ -97,7 +105,6 @@ cost approval and provider/simulation disclosure.
 failed-slot fallbacks, or simulation; providers and adoption are not
 asserted.
 
-[Repository](https://github.com/imrohitagrawal/quorum-ai) ·
 [Architecture](https://github.com/imrohitagrawal/quorum-ai/blob/303228262d7697793a268550a3b287d27f1a1584/docs/20-architecture.md)
 
 ### 03 / [SaafSaans](https://github.com/imrohitagrawal/saaf-saans)
@@ -114,7 +121,6 @@ and labelled live, deterministic, or sample modes.
 **State:** Public, non-clinical guidance; heuristic risk scoring has documented
 feed, pollutant-coverage, and WAQI-use limitations.
 
-[Repository](https://github.com/imrohitagrawal/saaf-saans) ·
 [Decision record](https://github.com/imrohitagrawal/saaf-saans/blob/3bac09012cc1a5e36d24505e54d6155ff0664aa3/docs/CASE-STUDY.md)
 
 ### 04 / [NarraTwin AI](https://github.com/imrohitagrawal/narratwin-ai)
@@ -132,7 +138,6 @@ checks, and pre-generation release gates.
 hosted deployment, provider-backed media generation, real video, or public
 distribution.
 
-[Repository](https://github.com/imrohitagrawal/narratwin-ai) ·
 [Release readiness](https://github.com/imrohitagrawal/narratwin-ai/blob/454025c403334933306142f65bc3e25541eeb23e/docs/RELEASE_READINESS_REVIEW.md)
 
 ## Established engineering foundation
@@ -165,11 +170,10 @@ design concerns.
 Open to senior/principal opportunities in **Forward-Deployed AI**, **AI Platform
 Engineering**, and **LLMOps / AI Reliability**.
 
-Adjacent roles: **AI Quality Engineering / AI Software Test
-Engineering**, **AI/ML SDET**, **AI Test Architecture**, and **AI Platform &
-DevOps**.
+Also open to closely aligned roles across **AI Quality & Test Engineering**,
+**AI/ML SDET and Test Architecture**, and **AI Platform & DevOps**.
 
-Bengaluru, India; **open to relocation globally**.
+Based in Bengaluru, India; **open to relocation and international travel**.
 
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
 [Email](mailto:rohit.ra.agrawal@gmail.com)
