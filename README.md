@@ -22,7 +22,7 @@ engineers** · **Bengaluru, India**
 ## How I deliver trustworthy systems
 
 *Applying principal-level delivery, platform, and reliability engineering to
-trustworthy AI systems; portfolio maturity is stated per project.*
+trustworthy AI systems.*
 
 <picture>
   <source
@@ -36,28 +36,32 @@ trustworthy AI systems; portfolio maturity is stated per project.*
     srcset="assets/engineering-lifecycle-dark.svg">
   <img
     src="assets/engineering-lifecycle-light.svg"
-    alt="Four-gate trustworthy systems delivery model: Discover and Frame
-      produce a decision brief; Architect and Build define a system boundary;
-      Evaluate and Release produce release evidence; Operate and Learn create a
-      learning backlog. Trust, evidence, and runtime controls span every gate;
-      Learn returns to Discover.">
+    alt="Four-gate trustworthy systems delivery model: Understand covers
+      Discover (customer problem, users, outcomes) and Frame (requirements,
+      constraints, risks, data), producing a decision brief; Design &amp; Deliver
+      covers Architect (services, APIs, data, trust boundaries) and Build (AI
+      workflows, integrations, platform), producing a system boundary; Assure &amp;
+      Ship covers Evaluate (tests, LLM evaluations, security, performance) and
+      Release (CI/CD, quality gates, canaries, rollback), producing release
+      evidence; Run &amp; Improve covers Operate (observability, SLOs, incidents,
+      reliability, cost) and Learn (production feedback, adoption, improvement),
+      creating a learning backlog. Trust &amp; Evidence and Runtime Discipline span
+      every gate; Learn returns to Discover.">
 </picture>
 
 ## What I am building now
 
-After my Oracle role concluded in April 2026, I chose a focused period of
-**full-time independent engineering and AI-platform portfolio development**,
-targeted professional upskilling, and a personal break alongside project
-building.
+After my Oracle role concluded in April 2026, I chose a focused period for:
 
-I use it to design, implement, evaluate, and document inspectable
-systems across grounded RAG, multi-model and agentic workflows, LLM evaluation,
-AI reliability, security, observability, cost controls, and release governance.
+- **Full-time independent engineering** across applied-AI systems
+- **AI-platform portfolio development** with inspectable architecture,
+  evaluation, reliability, and release evidence
+- **Targeted professional upskilling** in Forward-Deployed AI, AI Platform
+  Engineering, LLMOps / AI Reliability, and end-to-end MLOps
 
-This independent—not employer—work is the evidence bridge into
-Forward-Deployed AI, AI Platform Engineering, and LLMOps / AI Reliability.
-Classical end-to-end MLOps is active capability building, not a claim of deep
-prior lifecycle ownership.
+This independent—not employer—work accompanies a personal break and deliberate
+career repositioning, extending my delivery, platform, and reliability
+foundation.
 
 ## Selected independent AI systems
 
@@ -72,7 +76,7 @@ evaluation-gated index promotion.
 `Grounded RAG` · `Citations` · `Strict refusal` · `Versioned retrieval` ·
 `Evaluation gates`
 
-**State:** Public portfolio implementation with production-oriented controls;
+**State:** Public portfolio with production-oriented controls;
 current deployment, provider, index, users, and adoption are not asserted.
 
 [Repository](https://github.com/imrohitagrawal/citevyn) ·
@@ -89,7 +93,7 @@ cost approval and provider/simulation disclosure.
 `Multi-model orchestration` · `Critique and synthesis` · `Cost gates` ·
 `Provider provenance` · `Degraded modes`
 
-**State:** Public portfolio implementation; execution may use live providers,
+**State:** Public portfolio; execution may use live providers,
 failed-slot fallbacks, or simulation; providers and adoption are not
 asserted.
 
@@ -107,9 +111,8 @@ and labelled live, deterministic, or sample modes.
 `Grounded guidance` · `Citations` · `Feed provenance` · `Labelled fallbacks` ·
 `Injection guard`
 
-**State:** Public general-guidance portfolio; risk scoring is heuristic and
-non-clinical, with documented feed, pollutant-coverage, and WAQI-use
-limitations.
+**State:** Public, non-clinical guidance; heuristic risk scoring has documented
+feed, pollutant-coverage, and WAQI-use limitations.
 
 [Repository](https://github.com/imrohitagrawal/saaf-saans) ·
 [Decision record](https://github.com/imrohitagrawal/saaf-saans/blob/3bac09012cc1a5e36d24505e54d6155ff0664aa3/docs/CASE-STUDY.md)
@@ -125,9 +128,9 @@ checks, and pre-generation release gates.
 `Grounded scripts` · `Citations` · `Claim evaluation` · `Consent` ·
 `Release governance`
 
-**State:** Local/mock Phase 1 under No-Go; restart recovery is single-node only,
-with no hosted deployment, provider-backed media generation, real video, or
-public distribution.
+**State:** Local/mock Phase 1 under No-Go; single-node restart recovery; no
+hosted deployment, provider-backed media generation, real video, or public
+distribution.
 
 [Repository](https://github.com/imrohitagrawal/narratwin-ai) ·
 [Release readiness](https://github.com/imrohitagrawal/narratwin-ai/blob/454025c403334933306142f65bc3e25541eeb23e/docs/RELEASE_READINESS_REVIEW.md)
@@ -159,8 +162,14 @@ design concerns.
 
 ## Contact
 
-Open to Forward-Deployed AI, AI platform engineering, and LLMOps / AI
-reliability conversations; **open to relocation globally**.
+Open to senior/principal opportunities in **Forward-Deployed AI**, **AI Platform
+Engineering**, and **LLMOps / AI Reliability**.
+
+Adjacent roles: **AI Quality Engineering / AI Software Test
+Engineering**, **AI/ML SDET**, **AI Test Architecture**, and **AI Platform &
+DevOps**.
+
+Bengaluru, India; **open to relocation globally**.
 
 [LinkedIn](https://www.linkedin.com/in/rohitagrawal14) ·
 [Email](mailto:rohit.ra.agrawal@gmail.com)
